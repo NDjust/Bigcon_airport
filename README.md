@@ -59,7 +59,7 @@
 1. functions.py
     - 전치리 및 새로운 변수를 추가해주는 함수들이 있는 소스 코드.
 
-
+---
         def make_stt_weight(df):
             """
             Add STT_weight field fucntion
@@ -116,10 +116,12 @@
             """
             #code
 
+---
+
 2. Model.py
     - Xgboost, Adaboost, RandomForest, Logistic Regression 모형을 Customizing한 소스 코드.
 
-
+---
         class name 
         : Xgb
         
@@ -186,7 +188,7 @@
         functions 
         - train : trian data.(xgboost)
         > args : df(data), features, target_feature
-
+---
 3. main.py
     - 데이터 파이프라인 구축한 함수.
     - 모델 성능 확인하는 함수.(xgboost)
